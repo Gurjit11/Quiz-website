@@ -1,0 +1,126 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 0;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: rgb(43, 152, 225);
+    padding: 3px 0;
+    color: aliceblue;
+    margin: 3px;
+    border-radius: 30px;
+}
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(88, 190, 83);
+    padding: 5px 0;
+    margin: 3px;
+    border-radius: 10px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 5%;
+    border-radius: 30px;
+    background-color: rgb(234, 234, 234);
+    width: auto;
+    height: auto;
+   box-shadow: 3px 3px 30px 3px rgba(0, 0, 0, 0.3);
+}
+.innerbox{
+    padding: 30px;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.opt{
+    width: 100%;
+    align-items: initial;
+    border-radius: 6px;
+   border-style: none;
+    margin: 2px 2px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 6px 5%;
+    cursor: pointer;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.opt:hover{
+    background-color: rgb(207, 233, 252);
+}
+.start{
+  color: blue;
+  border-color: blue;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 6px;
+  border-width: 3px;
+  font-size: larger;
+  font-weight: 600;
+  margin: 50px 50px;
+  cursor: pointer;
+}
+.ques1{
+  display: flex;
+}
+.question{
+  display: none;
+}
+.ques3{
+  display: none;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;    
+}
+.next{
+    color: blue;
+    border-color: blue;
+    background-color: #fff;
+    padding: 3px 6px;
+    border-radius: 3px;
+    border-width: 3px;
+    font-weight: 600;
+    box-shadow: 0px 0px 10px 3px rgba(31, 2, 252, 0.2);
+    cursor: pointer;
+}
+.hide{
+  display: none;
+}
+.colflex{
+  display: flex;
+  flex-direction: column;
+}
+.rowflex{
+  display: flex;
+}
+.correct{
+  background-color: rgb(59, 227, 104);
+}
+.wrong{
+  background-color: rgb(245, 56, 56);
+}
